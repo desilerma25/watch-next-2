@@ -1,7 +1,3 @@
-// import axios from "axios";
-
-// const fetchPopMovies = (page) => axios.get('/api/popular-movies')
-
 // runs at build time
 // can add fetch req to fetch data
 // runs b4 component is rendered
