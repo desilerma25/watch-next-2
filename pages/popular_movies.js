@@ -7,7 +7,21 @@ export const getStaticProps = async () => {
 
     return {
         // makes data avail in props
-        props: {text: data}
+        props: { text: data }
     }
-
 }
+
+const Test = ({ text }) => {
+    return (
+        <div>
+            <h1> Is this displaying? </h1>
+            {/* {text.map(t => (
+                <div key={t.id}>
+                    <h3>{t}</h3>
+                </div>
+            ))} */}
+        </div>
+    );
+}
+
+export default Test;
